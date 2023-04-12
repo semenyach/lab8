@@ -24,7 +24,7 @@ for key in hol:
             fill='#FF0000',
             stroke_width=2,
             stroke_fill="#FF0000")
-        im.show()
+        im.save(key+'.png')
 else:
     print('Нет такой открытки(')
 
